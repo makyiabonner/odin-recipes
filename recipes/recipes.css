@@ -1,0 +1,143 @@
+body{    
+    background:url(https://i.pinimg.com/originals/25/27/bd/2527bd3e3997e00a69a0dbc7677e4bc7.jpg) ;
+    background-size: cover ;
+    background-repeat:no-repeat;
+    position:absolute;
+    display:block;
+    overflow-x:hidden;
+}
+#recipes-title{
+    color:white;
+    opacity:.4;
+    font-size:300px;
+    display:block;
+    position:relative;
+    top:.4em;
+    right:-1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 40px;
+
+}
+#hud1, #hud2, #hud3 {
+    display:inline-block;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    position:fixed;
+    color:white;
+    top:1em;
+    z-index:5;
+    font-size:20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+#hud1{
+    left:10em;
+}
+#hud2{
+    left:20em;
+}
+#hud3{
+    left:30em;
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+nav{
+    background:black;
+    width:150%;
+    height:90px;
+    position:fixed;
+    top:-1em;
+    opacity: .8;
+    left:-2em;
+    z-index:5;
+}
+#hud1:hover,#hud2:hover,#hud3:hover{
+    border-radius:2px;
+    background:rgb(116, 116, 116);
+    border:1px solid white;
+}
+#creamy-mushroom, #chicken-pasta, #yaki-udon{
+    position:relative;
+    top:20em;
+    transition:transform 1s;
+}
+#creamy-mushroom:hover, #chicken-pasta:hover, #yaki-udon:hover{
+    transform: scale(5);
+}
+#creamy-mushroom{
+    left:15em;
+}
+#chicken-pasta{
+    left:20em;
+}
+#yaki-udon{
+    left:25em;
+}
+#creamy-block, #chicken-block, #yaki-block{
+    background-color:rgb(247, 233, 192);
+    width:27.5em;
+    height:35em;
+    position: relative; 
+    display:inline-block; 
+    border-radius: 0px 0px 20px 20px;    
+}
+#creamy-block{
+    
+    right:68.25em;
+    top:55em;
+}
+#chicken-block{
+   
+    left:47.725em;
+    top:19.725em;
+}
+#yaki-block{
+    
+    left:52.725em;
+    top:19.725em;
+}
+#creamy-info, #chicken-info, #yaki-info{
+    position:relative;
+    display:inline-block;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top:-5em;
+    font-size:20px;
+    color:rgb(92, 87, 73);
+}
+#creamy-info{
+    right:27em;
+}
+
+#chicken-info{
+    right:12em;
+}
+#yaki-info{
+    left:3em;
+}
+#prep1, #cook1, #prep2, #cook2, #prep3, #cook3{
+    display:inline;
+    position:relative;
+    color:rgb(92, 87, 73);
+}
+#prep1{
+    right:4em;
+}
+#prep2{
+    right:5.5em;
+}
+#prep3{
+    right:7em;
+}
+#cook1{
+    left:2em;
+}
+#cook2{
+    left:.5em;
+}
+#cook3{
+    left:-1em;
+}
